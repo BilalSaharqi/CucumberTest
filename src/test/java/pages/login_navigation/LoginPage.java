@@ -1,12 +1,13 @@
 package pages.login_navigation;
 
-import com.vytrack.utilities.BrowserUtils;
-import com.vytrack.utilities.ConfigurationReader;
-import com.vytrack.utilities.Driver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utilities.BrowserUtils;
+import utilities.ConfigurationReader;
+import utilities.Driver;
 
 public class LoginPage {
     public LoginPage(){PageFactory.initElements(Driver.getDriver(), this);}

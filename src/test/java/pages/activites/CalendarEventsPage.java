@@ -1,15 +1,16 @@
 package pages.activites;
 
-import com.vytrack.utilities.BasePage;
-import com.vytrack.utilities.BrowserUtils;
-import com.vytrack.utilities.ConfigurationReader;
-import com.vytrack.utilities.Driver;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utilities.BasePage;
+import utilities.BrowserUtils;
+import utilities.ConfigurationReader;
+import utilities.Driver;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
